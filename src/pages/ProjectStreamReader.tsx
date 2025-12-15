@@ -10,7 +10,7 @@ export default function ProjectStreamReader() {
 
         <div className="flex flex-wrap gap-3">
           <a
-            className="rounded-xl bg-emerald-300 px-5 py-3 text-sm font-semibold text-neutral-950 hover:opacity-90"
+            className="rounded-xl bg-growth-300 px-5 py-3 text-sm font-semibold text-neutral-950 hover:opacity-90"
             href="https://stream-reader.ai"
             target="_blank"
             rel="noreferrer"
@@ -18,7 +18,7 @@ export default function ProjectStreamReader() {
             Open live site →
           </a>
           <a
-            className="rounded-xl border border-neutral-800 bg-neutral-900 px-5 py-3 text-sm font-semibold text-neutral-100 hover:bg-neutral-800"
+            className="rounded-xl border border-neutral-800 bg-growth-500 px-5 py-3 text-sm font-semibold text-neutral-100 hover:bg-neutral-800"
             href="https://github.com/Maintindihan"
             target="_blank"
             rel="noreferrer"
