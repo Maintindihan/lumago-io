@@ -14,15 +14,16 @@ export default function Home() {
     <div className="space-y-14">
       {/* HERO */}
       <section className="pt-4">
+
         <div className="inline-flex items-center gap-2 rounded-full border border-neutral-800 bg-neutral-900 px-3 py-1 text-xs text-neutral-300">
-          <span className="h-2 w-2 rounded-full bg-emerald-400" />
+          <span className="h-2 w-2 rounded-full bg-growth-400 shadow-glowSoft" />
           Biosolutions + environmental intelligence
         </div>
 
         <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
           Restoring ecosystems with
-          <span className="text-emerald-300"> data</span> and
-          <span className="text-emerald-300"> applied R&D</span>.
+          <span className="text-growth-400 drop-shadow-[0_0_18px_rgba(34,197,94,0.25)]"> data</span> and
+          <span className="text-growth-400 drop-shadow-[0_0_18px_rgba(34,197,94,0.25)]"> applied R&D</span>.
         </h1>
 
         <p className="mt-5 max-w-2xl text-base leading-relaxed text-neutral-300 md:text-lg">
@@ -33,7 +34,7 @@ export default function Home() {
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
             to="/projects"
-            className="rounded-xl bg-emerald-300 px-5 py-3 text-sm font-semibold text-neutral-950 hover:opacity-90"
+            className="rounded-xl bg-growth-500 px-5 py-3 text-sm font-semibold text-obsidian-950 shadow-glow hover:opacity-90"
           >
             Explore projects
           </Link>
@@ -115,7 +116,7 @@ export default function Home() {
         <div className="mt-6">
           <Link
             to="/contact"
-            className="inline-flex rounded-xl bg-white px-5 py-3 text-sm font-semibold text-neutral-950 hover:opacity-90"
+            className="inline-flex rounded-xl bg-growth-500 px-5 py-3 text-sm font-semibold text-obsidian-950 shadow-glow hover:opacity-90"
           >
             Contact Lumago
           </Link>
