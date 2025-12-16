@@ -6,7 +6,7 @@ export default function Contact() {
         Collaboration, pilots, funding, or data integration—send a note.
       </p>
       <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-5 text-neutral-300">
-        Email: <span className="text-neutral-100">noa@taxonomix.net</span>
+        Email: <span className="text-neutral-100">nainoa@lumago.io</span>
       </div>
     </div>
   );
