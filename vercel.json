@@ -2,11 +2,12 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "has": [
-        { "type": "host", "value": "lumago.io" }
-      ],
+      "has": [{ "type": "host", "value": "lumago.io" }],
       "destination": "https://lumago.io/$1",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
